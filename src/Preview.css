@@ -1,0 +1,47 @@
+/* General styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.preview-image img {
+  width: 100;
+  height: auto;
+}
+
+.postcard-share {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.return-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.return-button:hover {
+  background-color: #0056b3;
+}

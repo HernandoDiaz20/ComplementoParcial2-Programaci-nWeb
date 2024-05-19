@@ -1,0 +1,151 @@
+/* General styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 20px 20px;
+  margin-top: 60px;
+}
+
+.postcard-share {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.return-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.return-button:hover {
+  background-color: #0056b3;
+}
+
+.contact-form {
+  flex: 1;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.contact-form h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.contact-form h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Espacio entre párrafos */
+.contact-form p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  margin-top: 40px;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-left h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.footer-right img {
+  width: 100px;
+  height: auto;
+}
+
+.header-right-container {
+  margin-left: auto;
+}
